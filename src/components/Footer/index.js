@@ -1,10 +1,10 @@
-import './Rodape.css';
+import './Footer.css';
 
-const Rodape = () => {
+const Footer = () => {
     return (
         <footer>
             <div class="top-footer">
-                <p>John Doe .</p>
+                <p>Rafael Brum Corrêa.</p>
             </div>
             <div class="middle-footer">
                 <ul class="footer-menu">
@@ -12,13 +12,13 @@ const Rodape = () => {
                         <a href="#home">Home</a>
                     </li>
                     <li class="footer_menu_list">
-                        <a href="#about">About</a>
+                        <a href="#about">Sobre Mim</a>
                     </li>
                     <li class="footer_menu_list">
-                        <a href="#projects">Projects</a>
+                        <a href="#projects">Projetos</a>
                     </li>
                     <li class="footer_menu_list">
-                        <a href="#contact">Contact</a>
+                        <a href="#contact">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -30,11 +30,11 @@ const Rodape = () => {
             </div>
             <div class="bottom-footer">
                 <p>Copyright &copy; 
-                    <a href="#home">John Doe</a> - All rights reserved
+                    <a href="#home">Rafael Brum Corrêa</a> - Direitos reservados.
                 </p>
             </div>
         </footer>
     )
 
 }
-export default Rodape;
+export default Footer;

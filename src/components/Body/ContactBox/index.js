@@ -1,31 +1,31 @@
-import './CardContrateMe.css';
+import './ContactBox.css';
 
-const CardContrateMe = () => {
+const ContactBox = () => {
     return (
-        <section class="section" id="contact">
+        <section class="section" className="contact">
                 <div class="top-header">
-                    <h1>Get in touch</h1>
-                    <span>Do you have a project in your mind, contact me here</span>
+                    <h1>Entrar em contato</h1>
+                    <span>Você tem algum projeto, contate me.</span>
                 </div>
                 <div class="row">
                   <div class="col">
                         <div class="contact-info">
-                            <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
-                            <p><i class="uil uil-envelope"></i> Email: john@doe.com</p>
-                            <p><i class="uil uil-phone"></i> +91 70822 00001</p>
+                            <h2>Fale comigo: <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i> Email: rafael.fs.camaqua@gmail.com</p>
+                            <p><i class="uil uil-phone"></i> +51 984097595</p>
                         </div>
                     </div>                    
                     <div class="col">
                         <div class="form-control">
                             <div class="form-inputs">
-                                <input type="text" class="input-field" placeholder="Name"></input>
+                                <input type="text" class="input-field" placeholder="Nome"></input>
                                 <input type="text" class="input-field" placeholder="Email"></input>
                             </div>
                             <div class="text-area">
-                                <textarea placeholder="Message"></textarea>
+                                <textarea placeholder="Mensagem"></textarea>
                             </div>
                             <div class="form-button">
-                                <button class="btn">Send <i class="uil uil-message"></i></button>
+                                <button class="btn">Enviar <i class="uil uil-message"></i></button>
                             </div>
                         </div>
                     </div> 
@@ -34,4 +34,4 @@ const CardContrateMe = () => {
     )
 
 }
-export default CardContrateMe;
+export default ContactBox;

@@ -1,0 +1,30 @@
+
+.body-app{
+    padding: 10px;
+}
+
+body{
+    background: var(--body-color);
+}
+.container{
+    width: 100%;
+    position: relative;
+    overflow-x: hidden; /* not mandatory */
+}
+
+.btn{
+    font-weight: 500;
+    padding: 12px 20px;
+    background: #efefef;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s;
+}
+.btn>i{
+    margin-left: 10px;
+}
+.btn:hover{
+    background: var(--second-color);
+    color: var(--color-white);
+}

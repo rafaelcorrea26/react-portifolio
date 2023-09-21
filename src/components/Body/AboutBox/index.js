@@ -1,22 +1,20 @@
-import './CardSobre.css';
+import './AboutBox.css';
 
-const CardSobre = () => {
+const AboutBox = () => {
     return (
-        <section class="section" id="about">
+        <section class="section" className="about">
                 <div class="top-header">
-                    <h1>About Me</h1>
+                    <h1>Sobre mim</h1>
                 </div>
                 <div class="row">
                     <div class="col">
                         <div class="about-info">
-                            <h3>My introduction</h3>
-                            <p>I am well-versed in HTML, CSS and JavaScript , and other cutting edge
-                                frameworks and libraries,which allows me to implement interactive features.
-                                Additionally, I have experirence working with content management systems (CMS) like
-                                WordPress.
+                            <h3>Minha introdução</h3>
+                            <p>Sou bem versado em HTML, CSS e JavaScript e outras tecnologias de ponta
+                                frameworks e bibliotecas, o que me permite implementar recursos interativos.
                             </p>
                             <div class="about-btn">
-                                <button class="btn">Download CV <i class="uil uil-import"></i></button>
+                                <button class="btn">Baixar Curriculo <i class="uil uil-import"></i></button>
                             </div>
                         </div>
                     </div>
@@ -28,9 +26,7 @@ const CardSobre = () => {
                             <div class="skills-list">
                                 <span>HTML</span>
                                 <span>CSS</span>
-                                <span>Bootstrap</span>
                                 <span>JavaScript</span>
-                                <span>Vue</span>
                                 <span>React</span>
                                 <span>Angular</span>
                             </div>
@@ -40,10 +36,10 @@ const CardSobre = () => {
                                 <h3>Backend</h3>
                             </div>
                             <div class="skills-list">
-                                <span>PHP</span>
+                                <span>Node.js</span>
                                 <span>JAVA</span>
-                                <span>Python</span>
-                                <span>C++</span>
+                                <span>Dart</span>
+                                <span>Delphi</span>
                             </div>
                         </div>
                         <div class="skills-box">
@@ -53,7 +49,9 @@ const CardSobre = () => {
                             <div class="skills-list">
                                 <span>MySQL</span>
                                 <span>PostgreSQL</span>
-                                <span>MongoDB</span>
+                                <span>SqlServer</span>
+                                <span>Oracle</span>
+                                <span>Firebard</span>
                             </div>
                         </div>
                     </div>
@@ -62,4 +60,4 @@ const CardSobre = () => {
     )
 
 }
-export default CardSobre;
+export default AboutBox;

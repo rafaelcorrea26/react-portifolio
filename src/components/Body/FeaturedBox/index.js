@@ -1,23 +1,21 @@
-import './CardApresentacao.css';
+import './FeaturedBox.css';
 
-const CardApresentacao = () => {
+const FeaturedBox = () => {
     return (
-        <section class="featured-box" id="home">
+        <section class="featured-box" className="home">
                 <div class="featured-text">
                     <div class="featured-text-card">
-                        <span>John Doe</span>
+                        <span>Rafael Brum Corrêa</span>
                     </div>
                     <div class="featured-name">
-                        <p>I'm <span class="typedText"></span></p>
+                        <p>Eu sou <span class="typedText"></span></p>
                     </div>
                     <div class="featured-text-info">
-                        <p>Experienced frontend developer with a passion for creating visually stunning
-                            and user-friendly websites.
-                        </p>
+                        <p>Desenvolvedor frontend experiente com paixão por criar sites visualmente impressionantes e fáceis de usar.</p>
                     </div>
                     <div class="featured-text-btn">
-                        <button class="btn blue-btn">Hire Me</button>
-                        <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+                        <button class="btn blue-btn">Contrate-me</button>
+                        <button class="btn">Baixar Curriculo <i class="uil uil-file-alt"></i></button>
                     </div>
                     <div class="social_icons">
                         <div class="icon"><i class="uil uil-instagram"></i></div>
@@ -28,13 +26,13 @@ const CardApresentacao = () => {
                 </div>
                 <div class="featured-image">
                     <div class="image">
-                        <img src="./profile.png" alt="avatar"></img>
+                        <img src="profile.png" alt="avatar"></img>
                     </div>
                 </div>
                 <div class="scroll-icon-box">
                     <a href="#about" class="scroll-btn">
                         <i class="uil uil-mouse-alt"></i>
-                        <p>Scroll Down</p>
+                        <p>Descer Página</p>
                     </a>
                 </div>
 
@@ -42,6 +40,6 @@ const CardApresentacao = () => {
     )
 
 }
-export default CardApresentacao;
+export default FeaturedBox;
  
  
